@@ -1,0 +1,151 @@
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+/* Custom fonts */
+@font-face {
+  font-family: font-1;
+  src: url("../provided/aurorabc.ttf");
+}
+
+.font-1 {
+  font-family: font-1;
+}
+
+.header {
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.5);
+  max-height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.header-carousel {
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.5);
+  max-height: 500px;
+}
+
+.header-carousel img {
+  max-height: 500px;
+  object-fit: cover;
+}
+
+/* Custom elements */
+.nav-logo {
+  width: 10%;
+}
+
+.navbar {
+  border-bottom: 1px solid #EEF1F4;
+  padding: 0rem 2rem !important;
+}
+
+.active {
+  color: #19c0ff !important;
+}
+
+.nav-item {
+  padding: 0.75rem 0 !important;
+  margin-bottom: 3px;
+}
+
+.white-border {
+  border: 15px solid white;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.09), 0px 0px 2px rgba(0, 0, 0, 0.09), 6px 6px 8px rgba(0, 0, 0, 0.35);
+}
+
+.anchor {
+  display: block;
+  position: relative;
+  top: -107px;
+  visibility: hidden;
+}
+
+#maps-overlay {
+  position: absolute;
+  top: 20px;
+  right:0;
+  padding: 10px;
+  transform: translate(-50%, 0);
+  background-color: white !important;
+  border-radius: .25rem;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+/* Custom colors */
+.bg-custom-dark {
+  background-color: #19c0ff !important;
+}
+
+.bg-light {
+  background-color: #fdfdfd;
+}
+
+.dropdown-menu {
+  background-color: #f8f9fa;
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+
+.dropdown-item:hover {
+  background-color: white;
+  text-shadow: 1px 1px rgba(0,0,0,0.2);
+}
+
+.dropdown-item:active {
+  background-color: #00a2ff;
+  text-shadow: 1px 1px rgba(0,0,0,0.2);
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #314c67 !important;
+  transition: color 0.5s ease;
+}
+
+.text-black {
+  color: black !important;
+}
+
+.nav-item:hover {
+  border-bottom: 3px solid #00a2ff;
+  color: #19c0ff !important;
+  margin-bottom: 0;
+}
+
+.btn-custom {
+  background-color: #00a2ff !important;
+  color: white !important;
+  border: 1px solid white;
+}
+
+.btn-custom:hover {
+  background-color: white !important;
+  color: #00a2ff !important;
+  border: 1px solid #00a2ff;
+}
+
+.header-btn button {
+  color: #00a2ff !important;
+}
+
+.header-btn button:hover {
+  background-color: #00a2ff !important;
+  color: white !important;
+}
+
+@media only screen and (max-width:993px) {
+  .nav-item:hover {
+    border-bottom: 0;
+    margin-bottom: 3px;
+  }
+  .nav-link:hover {
+    color: #00a2ff !important;
+  }
+}
