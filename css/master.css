@@ -30,9 +30,44 @@ html {
   object-fit: cover;
 }
 
+.header-background {
+  background-color: rgba(0,0,0,0.5);
+  border-radius: .25rem;
+  border: 1px solid black;
+}
+
 /* Custom elements */
 .nav-logo {
   width: 10%;
+}
+
+.work-card h3 {
+  transition: font-size .2s ease-out;
+  position: absolute;
+  bottom: 50px;
+  left: 30px;
+  padding-right: 20px;
+}
+
+.work-card {
+  overflow: hidden;
+}
+
+.work-card img {
+  transition: transform .2s ease-out;
+}
+
+.work-card:hover img {
+  transform: scale(1.33);
+  -o-transform: scale(1.33);       /* Opera */
+  -ms-transform: scale(1.33);      /* IE 9 */
+  -moz-transform: scale(1.33);     /* Firefox */
+  -webkit-transform: scale(1.33);  /* Safari and Chrome */
+  vertical-align: middle;
+}
+
+.work-card:hover h3 {
+  font-size: 2.5rem;
 }
 
 .navbar {
@@ -51,6 +86,10 @@ html {
 
 .white-border {
   border: 15px solid white;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.09), 0px 0px 2px rgba(0, 0, 0, 0.09), 6px 6px 8px rgba(0, 0, 0, 0.35);
+}
+
+.shadow-border {
   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.09), 0px 0px 2px rgba(0, 0, 0, 0.09), 6px 6px 8px rgba(0, 0, 0, 0.35);
 }
 
@@ -78,7 +117,8 @@ footer ul {
 
 /* Custom colors */
 .bg-custom-dark {
-  background-color: #19c0ff !important;
+  background-color: #01a7d1 !important;
+  /* background-color: #19c0ff !important; */
 }
 
 .bg-light {
@@ -104,6 +144,14 @@ footer ul {
   font-weight: bold;
 }
 
+.big {
+  font-size: 5rem;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px rgba(0,0,0,0.2);
+}
+
 .nav-link {
   color: #314c67 !important;
   transition: color 0.5s ease;
@@ -120,7 +168,7 @@ footer ul {
 }
 
 .btn-custom {
-  background-color: #00a2ff !important;
+  background-color: #01a7d1 !important;
   color: white !important;
   border: 1px solid white;
 }
@@ -129,6 +177,13 @@ footer ul {
   background-color: white !important;
   color: #00a2ff !important;
   border: 1px solid #00a2ff;
+}
+
+.header-title {
+  position: absolute;
+  top: 25%;
+  text-align: center;
+  width: 100%;
 }
 
 .header-btn button {
