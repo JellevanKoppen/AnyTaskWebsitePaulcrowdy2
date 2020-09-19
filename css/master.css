@@ -8,7 +8,6 @@ html {
   font-family: font-1;
   src: url("../provided/aurorabc.ttf");
 }
-
 .font-1 {
   font-family: font-1;
 }
@@ -37,6 +36,15 @@ html {
 }
 
 /* Custom elements */
+
+.divider {
+  height: 1px;
+  width: 100%;
+  background-color: #ced4da;
+  margin: 10vh 0;
+}
+
+
 .nav-logo {
   width: 10%;
 }
@@ -179,9 +187,14 @@ footer ul {
   border: 1px solid #00a2ff;
 }
 
+.header-wrapper {
+  position: relative;
+  max-height: 500px;
+}
+
 .header-title {
   position: absolute;
-  top: 25%;
+  top: calc(250px - 5rem);
   text-align: center;
   width: 100%;
 }
@@ -195,6 +208,12 @@ footer ul {
   color: white !important;
 }
 
+@media only screen and (min-width:768px) {
+  .sm-big {
+    font-size: 5rem;
+  }
+}
+
 @media only screen and (max-width:993px) {
   .nav-item:hover {
     border-bottom: 0;
@@ -202,5 +221,13 @@ footer ul {
   }
   .nav-link:hover {
     color: #00a2ff !important;
+  }
+
+  .header-title {
+    top: calc(150px - 5rem);
+  }
+
+  .divider {
+    margin: 5vh 0;
   }
 }
