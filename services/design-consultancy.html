@@ -13,10 +13,13 @@
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="../js/bootstrap.min.js"></script>
   <script src="../js/master.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="../css/bootstrap.min.css">
   <link rel="stylesheet" href="../css/master.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
 </head>
 
 <body>
@@ -42,18 +45,18 @@
             <a class="dropdown-item" href="data-networking-and-wifi.html">Data Networking and WI-FI</a>
             <a class="dropdown-item" href="multiroom-audio-and-visual.html">Multiroom Audio & Visual</a>
             <a class="dropdown-item" href="home-cinema.html">Home Cinema</a>
-            <a class="dropdown-item" href="home-environment-control.html">Home Environment Control (Lighting/Heating/Shading)</a>
+            <a class="dropdown-item" href="home-environment-control.html">Home Environment Control<br/>(Lighting/Heating/Shading)</a>
             <a class="dropdown-item" href="intruder-alarms-and-cctv.html">Intruder Alarms & CCTV</a>
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="ourwork.html">Our Work</a>
+          <a class="nav-link" href="../ourwork.html">Our Work</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="about.html">About Us</a>
+          <a class="nav-link" href="../about.html">About Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact Us</a>
+          <a class="nav-link" href="../contact.html">Contact Us</a>
         </li>
       </ul>
     </div>
@@ -61,12 +64,69 @@
 
 
   <!-- Header -->
-  <img src="../images/h-1.jpg" class="img-fluid header w-100" alt="">
-  <h1 class="header-title font-1 mt-md-5 mt-3 sm-big text-shadow">Design / Consultancy</h1>
+  <div class="header-wrapper">
+    <img src="../images/h-1.jpg" class="img-fluid header w-100" alt="">
+    <h1 class="header-title font-1 sm-big text-shadow">Design / Consultancy</h1>
+  </div>
 
   <!-- Content -->
   <div class="container">
+    <div class="row mt-5">
+      <div class="col-12">
+        <h1 class="font-1 text-custom">ABOUT THIS SERVICE</h1>
+      </div>
+      <div class="col-md-8">
+        <h3 class="text-custom font-1">Design / Consultancy</h3>
+        <section class="text-justify text-muted small px-3 px-md-0">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac mi accumsan, pharetra mi non, mollis eros. Morbi et massa quis tortor porttitor consequat. Donec commodo, nisi et eleifend maximus, justo lectus porttitor risus,
+          laoreet convallis urna tellus vel mauris. Quisque at mi lacinia, sodales lorem quis, pretium orci. Nulla tellus ipsum, tincidunt et pharetra in, sodales vestibulum neque. Sed pulvinar molestie enim, id laoreet tortor semper in.
+        </section>
+        <section class="text-justify text-muted mt-4 small px-3 px-md-0">
+          In dapibus, dolor sed pellentesque varius, sapien mauris vestibulum tellus, eget pretium magna velit vitae quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam dictum nisl non metus molestie
+          dapibus. Duis bibendum odio ut maximus tempus. Aliquam sollicitudin velit nulla, nec faucibus orci cursus sed.
+        </section>
+        <section class="text-justify text-muted small mt-4 px-3 px-md-0">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac mi accumsan, pharetra mi non, mollis eros. Morbi et massa quis tortor porttitor consequat. Donec commodo, nisi et eleifend maximus, justo lectus porttitor risus,
+          laoreet convallis urna tellus vel mauris. Quisque at mi lacinia, sodales lorem quis, pretium orci. Nulla tellus ipsum, tincidunt et pharetra in, sodales vestibulum neque. Sed pulvinar molestie enim, id laoreet tortor semper in.
+        </section>
+      </div>
+      <div class="col-md-4">
+        <img src="../images/work-6.jpg" class="img-fluid w-100 white-border" alt="">
+      </div>
+      <div class="col-6 col-sm-6 col-md-6 col-lg-3 mx-auto mt-5">
+        <a href="../contact.html" class="btn btn-black px-sm-2 px-md-5 py-3 font-1 w-100">Contact Us</a>
+      </div>
+      <div class="col-6 col-sm-6 col-md-6 col-lg-3 mx-auto mt-5">
+        <a href="#galleries" class="btn btn-black px-sm-2 px-md-5 py-3 font-1 w-100">Galleries</a>
+      </div>
+    </div>
 
+
+    <div class="white-space"></div>
+    <div class="row mt-5">
+      <a class="anchor" id="galleries"></a>
+      <div class="col-12">
+        <h1 class="font-1 text-custom text-center">GALLERIES</h1>
+      </div>
+      <div class="col-6 col-lg-4">
+        <a data-fancybox="gallery" href="../images/ph-260.gif"><img src="../images/ph-260.gif" class="w-100 mt-4 white-border"></a>
+        <a data-fancybox="gallery" href="../images/ph-800.gif"><img src="../images/ph-800.gif" class="w-100 mt-4 white-border"></a>
+        <a data-fancybox="gallery" href="../images/ph-260.gif"><img src="../images/ph-260.gif" class="w-100 mt-4 white-border"></a>
+        <a data-fancybox="gallery" href="../images/ph-220.gif"><img src="../images/ph-220.gif" class="w-100 mt-4 white-border"></a>
+      </div>
+      <div class="col-6 col-lg-4">
+        <a data-fancybox="gallery" href="../images/ph-260.gif"><img src="../images/ph-260.gif" class="w-100 mt-4 white-border"></a>
+        <a data-fancybox="gallery" href="../images/ph-260.gif"><img src="../images/ph-260.gif" class="w-100 mt-4 white-border"></a>
+        <a data-fancybox="gallery" href="../images/ph-220.gif"><img src="../images/ph-220.gif" class="w-100 mt-4 white-border"></a>
+        <a data-fancybox="gallery" href="../images/ph-800.gif"><img src="../images/ph-800.gif" class="w-100 mt-4 white-border"></a>
+      </div>
+      <div class="col-6 col-lg-4">
+        <a data-fancybox="gallery" href="../images/ph-260.gif"><img src="../images/ph-260.gif" class="w-100 mt-4 white-border"></a>
+        <a data-fancybox="gallery" href="../images/ph-800.gif"><img src="../images/ph-800.gif" class="w-100 mt-4 white-border"></a>
+        <a data-fancybox="gallery" href="../images/ph-220.gif"><img src="../images/ph-220.gif" class="w-100 mt-4 white-border"></a>
+        <a data-fancybox="gallery" href="../images/ph-260.gif"><img src="../images/ph-260.gif" class="w-100 mt-4 white-border"></a>
+      </div>
+    </div>
   </div>
 
   <!-- footer -->

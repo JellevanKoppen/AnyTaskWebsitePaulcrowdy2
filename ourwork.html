@@ -13,10 +13,13 @@
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="./js/bootstrap.min.js"></script>
   <script src="./js/master.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="./css/bootstrap.min.css">
   <link rel="stylesheet" href="./css/master.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
 </head>
 
 <body>
@@ -42,7 +45,7 @@
             <a class="dropdown-item" href="services/data-networking-and-wifi.html">Data Networking and WI-FI</a>
             <a class="dropdown-item" href="services/multiroom-audio-and-visual.html">Multiroom Audio & Visual</a>
             <a class="dropdown-item" href="services/home-cinema.html">Home Cinema</a>
-            <a class="dropdown-item" href="services/home-environment-control.html">Home Environment Control (Lighting/Heating/Shading)</a>
+            <a class="dropdown-item" href="services/home-environment-control.html">Home Environment Control<br/>(Lighting/Heating/Shading)</a>
             <a class="dropdown-item" href="services/intruder-alarms-and-cctv.html">Intruder Alarms & CCTV</a>
           </div>
         </li>
@@ -108,105 +111,162 @@
     <div class="white-space"></div>
 
     <div class="row mt-5">
-      <div class="col-12">
-        <h2 class="font-1 text-center text-custom">SOME OF OUR WORK</h2>
-      </div>
-      <div class="col-md-6 col-lg-4 mt-4">
-        <a href="services/intruder-alarms-and-cctv.html">
-          <div class="work-card">
-            <img src="./images/work-1.jpg" class="img-fluid w-100 shadow-border" alt="">
-            <h3 class="font-1 text-white card-title text-shadow">Intruder Alarms & CCTV</h3>
+      <div class="col-md-6">
+        <h2 class="text-custom font-1">PROTECT YOUR HOME</h2>
+        <img src="./images/work-1-large.jpg" class="d-block d-md-none img-fluid my-3" alt="">
+        <section class="text-justify text-muted px-3 px-md-0">
+          Intruder alarms and CCTV. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac mi accumsan, pharetra mi non, mollis eros. Morbi et massa quis tortor porttitor consequat. Donec commodo, nisi et eleifend maximus, justo lectus porttitor risus,
+          laoreet convallis urna tellus vel mauris. Quisque at mi lacinia, sodales lorem quis, pretium orci. Nulla tellus ipsum, tincidunt et pharetra in, sodales vestibulum neque. Sed pulvinar molestie enim, id laoreet tortor semper in.
+        </section>
+        <div class="row">
+          <div class="col-6 col-md-5 col-lg-4 mt-3">
+            <a href="services/intruder-alarms-and-cctv.html" class="btn btn-black py-3 font-1 w-100">Learn More</a>
           </div>
-        </a>
+        </div>
       </div>
-      <div class="col-md-6 col-lg-4 mt-4">
-        <a href="services/home-cinema.html">
-          <div class="work-card">
-            <img src="./images/work-2.jpg" class="img-fluid w-100 shadow-border" alt="">
-            <h3 class="font-1 text-white card-title text-shadow">Home Cinema</h3>
-          </div>
-        </a>
+      <div class="col-md-1 d-none d-md-block"></div>
+      <div class="col-md-5 my-auto">
+        <img src="./images/work-1-large.jpg" class="img-fluid d-none d-md-block" alt="">
       </div>
-      <div class="col-md-6 col-lg-4 mt-4">
-        <a href="services/multiroom-audio-and-visual.html">
-          <div class="work-card">
-            <img src="./images/work-3.jpg" class="img-fluid w-100 shadow-border" alt="">
-            <h3 class="font-1 text-white card-title text-shadow">Multiroom Audio & Visual</h3>
-          </div>
-        </a>
-      </div>
-      <div class="col-md-6 col-lg-4 mt-4">
-        <a href="services/home-environment-control.html">
-          <div class="work-card">
-            <img src="./images/work-4.jpg" class="img-fluid w-100 shadow-border" alt="">
-            <h3 class="font-1 text-white card-title text-shadow">Home Environment Control</h3>
-          </div>
-        </a>
-      </div>
-      <div class="col-md-6 col-lg-4 mt-4">
-        <a href="services/data-networking-and-wifi.html">
-          <div class="work-card">
-            <img src="./images/work-5.jpg" class="img-fluid w-100 shadow-border" alt="">
-            <h3 class="font-1 text-white card-title text-shadow">Data Networking & WI-FI</h3>
-          </div>
-        </a>
-      </div>
-      <div class="col-md-6 col-lg-4 mt-4">
-        <a href="services/design-consultancy.html">
-          <div class="work-card">
-            <img src="./images/work-6.jpg" class="img-fluid w-100 shadow-border" alt="">
-            <h3 class="font-1 text-white card-title text-shadow">Design & Consultancy</h3>
-          </div>
-        </a>
-      </div>
-
     </div>
 
     <div class="white-space"></div>
 
-    <a class="anchor" id="contact"></a>
-    <div class="row mt-5 contact pt-2 pb-5 white-border-sm">
+    <div class="row mt-5">
+      <div class="col-md-5 my-auto">
+        <img src="./images/work-2-large.jpg" class="img-fluid d-none d-md-block" alt="">
+      </div>
+      <div class="col-md-1 d-none d-md-block"></div>
       <div class="col-md-6">
-        <div class="row mt-3">
-          <div class="col-sm">
-            <h2 class="text-custom text-sm-white font-1">CONTACT US</h2>
-          </div>
-        </div>
-        <div class="row mt-1">
-          <div class="col-sm">
-            <h4 class="text-custom text-sm-white font-1">Let's meet!</h4>
-          </div>
-        </div>
-        <div class="row mt-5">
-          <div class="col-sm-12">
-            <form class="row">
-              <div class="form-group col-6">
-                <input type="text" placeholder="First Name*" class="form-control" name="inputFirstname" aria-describedby="firstname">
-              </div>
-              <div class="form-group col-6">
-                <input type="text" placeholder="Last Name*" class="form-control" name="inputLastname" aria-describedby="lastname">
-              </div>
-              <div class="form-group col-6">
-                <input type="email" placeholder="Email*" class="form-control" name="inputEmail" aria-describedby="email">
-              </div>
-              <div class="form-group col-6">
-                <input type="tel" placeholder="Phone number" class="form-control" name="inputPhone" aria-describedby="phone">
-              </div>
-              <div class="form-group col-12">
-                <textarea name="bericht" placeholder="Message" class="form-control" rows="3" cols="80"></textarea>
-              </div>
-              <div class="small text-muted col-12 text-sm-white">
-                * Mandatory
-              </div>
-              <div class="text-center col-12">
-                <button type="submit" class="btn btn-custom px-5">SEND</button>
-              </div>
-            </form>
+        <h2 class="text-custom font-1">CINEMA AT HOME</h2>
+        <img src="./images/work-2-large.jpg" class="d-block d-md-none img-fluid my-3" alt="">
+        <section class="text-justify text-muted px-3 px-md-0">
+          Home Cinema. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac mi accumsan, pharetra mi non, mollis eros. Morbi et massa quis tortor porttitor consequat. Donec commodo, nisi et eleifend maximus, justo lectus porttitor risus,
+          laoreet convallis urna tellus vel mauris. Quisque at mi lacinia, sodales lorem quis, pretium orci. Nulla tellus ipsum, tincidunt et pharetra in, sodales vestibulum neque. Sed pulvinar molestie enim, id laoreet tortor semper in.
+        </section>
+        <div class="row">
+          <div class="col-6 col-md-5 col-lg-4 mt-3">
+            <a href="services/home-cinema.html" class="btn btn-black py-3 font-1 w-100">Learn More</a>
           </div>
         </div>
       </div>
-      <div class="d-none d-md-block col-md-6">
-        <img src="./images/ph-4.jpg" alt="" class="img-fluid w-100 white-border">
+    </div>
+
+    <div class="white-space"></div>
+
+    <div class="row mt-5">
+      <div class="col-md-6">
+        <h2 class="text-custom font-1">AUDIO FOR EVERYTHING</h2>
+        <img src="./images/work-3-large.jpg" class="d-block d-md-none img-fluid my-3" alt="">
+        <section class="text-justify text-muted px-3 px-md-0">
+          Multiroom Audio & Visual. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac mi accumsan, pharetra mi non, mollis eros. Morbi et massa quis tortor porttitor consequat. Donec commodo, nisi et eleifend maximus, justo lectus porttitor risus,
+          laoreet convallis urna tellus vel mauris. Quisque at mi lacinia, sodales lorem quis, pretium orci. Nulla tellus ipsum, tincidunt et pharetra in, sodales vestibulum neque. Sed pulvinar molestie enim, id laoreet tortor semper in.
+        </section>
+        <div class="row">
+          <div class="col-6 col-md-5 col-lg-4 mt-3">
+            <a href="services/multiroom-audio-and-visual.html" class="btn btn-black py-3 font-1 w-100">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1 d-none d-md-block"></div>
+      <div class="col-md-5 my-auto">
+        <img src="./images/work-3-large.jpg" class="img-fluid d-none d-md-block" alt="">
+      </div>
+    </div>
+
+    <div class="white-space"></div>
+
+    <div class="row mt-5">
+      <div class="col-md-5 my-auto">
+        <img src="./images/work-4-large.jpg" class="img-fluid d-none d-md-block" alt="">
+      </div>
+      <div class="col-md-1 d-none d-md-block"></div>
+      <div class="col-md-6">
+        <h2 class="text-custom font-1">TAKE CONTROL OF YOUR ENVIRONMENT</h2>
+        <img src="./images/work-4-large.jpg" class="d-block d-md-none img-fluid my-3" alt="">
+        <section class="text-justify text-muted px-3 px-md-0">
+          Home Environment Control. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac mi accumsan, pharetra mi non, mollis eros. Morbi et massa quis tortor porttitor consequat. Donec commodo, nisi et eleifend maximus, justo lectus porttitor risus,
+          laoreet convallis urna tellus vel mauris. Quisque at mi lacinia, sodales lorem quis, pretium orci. Nulla tellus ipsum, tincidunt et pharetra in, sodales vestibulum neque. Sed pulvinar molestie enim, id laoreet tortor semper in.
+        </section>
+        <div class="row">
+          <div class="col-6 col-md-5 col-lg-4 mt-3">
+            <a href="services/home-environment-control.html" class="btn btn-black py-3 font-1 w-100">Learn More</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="white-space"></div>
+
+    <div class="row mt-5">
+      <div class="col-md-6">
+        <h2 class="text-custom font-1">NEVER BE OFFLINE AGAIN</h2>
+        <img src="./images/work-5-large.jpg" class="d-block d-md-none img-fluid my-3" alt="">
+        <section class="text-justify text-muted px-3 px-md-0">
+          Data Networking & WI-FI. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac mi accumsan, pharetra mi non, mollis eros. Morbi et massa quis tortor porttitor consequat. Donec commodo, nisi et eleifend maximus, justo lectus porttitor risus,
+          laoreet convallis urna tellus vel mauris. Quisque at mi lacinia, sodales lorem quis, pretium orci. Nulla tellus ipsum, tincidunt et pharetra in, sodales vestibulum neque. Sed pulvinar molestie enim, id laoreet tortor semper in.
+        </section>
+        <div class="row">
+          <div class="col-6 col-md-5 col-lg-4 mt-3">
+            <a href="services/data-networking-and-wifi.html" class="btn btn-black py-3 font-1 w-100">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1 d-none d-md-block"></div>
+      <div class="col-md-5 my-auto">
+        <img src="./images/work-5-large.jpg" class="img-fluid d-none d-md-block" alt="">
+      </div>
+    </div>
+
+    <div class="white-space"></div>
+
+    <div class="row mt-5">
+      <div class="col-md-5 my-auto">
+        <img src="./images/work-6-large.jpg" class="img-fluid d-none d-md-block" alt="">
+      </div>
+      <div class="col-md-1 d-none d-md-block"></div>
+      <div class="col-md-6">
+        <h2 class="text-custom font-1">CONSULTANCY & DESIGN</h2>
+        <img src="./images/work-6-large.jpg" class="d-block d-md-none img-fluid my-3" alt="">
+        <section class="text-justify text-muted px-3 px-md-0">
+          Design & Consultancy. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac mi accumsan, pharetra mi non, mollis eros. Morbi et massa quis tortor porttitor consequat. Donec commodo, nisi et eleifend maximus, justo lectus porttitor risus,
+          laoreet convallis urna tellus vel mauris. Quisque at mi lacinia, sodales lorem quis, pretium orci. Nulla tellus ipsum, tincidunt et pharetra in, sodales vestibulum neque. Sed pulvinar molestie enim, id laoreet tortor semper in.
+        </section>
+        <div class="row">
+          <div class="col-6 col-md-5 col-lg-4 mt-3">
+            <a href="services/design-consultancy.html" class="btn btn-black py-3 font-1 w-100">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="white-space"></div>
+
+    <div class="row mt-5">
+      <div class="col-12">
+        <h1 class="font-1 text-custom text-center">GALLERIES</h1>
+      </div>
+      <div class="col-6 col-lg-4">
+        <a data-fancybox="gallery" href="./images/ph-260.gif"><img src="./images/ph-260.gif" class="w-100 mt-4 white-border"></a>
+        <a data-fancybox="gallery" href="./images/ph-800.gif"><img src="./images/ph-800.gif" class="w-100 mt-4 white-border"></a>
+        <a data-fancybox="gallery" href="./images/ph-800.gif"><img src="./images/ph-800.gif" class="w-100 mt-4 white-border"></a>
+        <a data-fancybox="gallery" href="./images/ph-260.gif"><img src="./images/ph-260.gif" class="w-100 mt-4 white-border"></a>
+        <a data-fancybox="gallery" href="./images/ph-220.gif"><img src="./images/ph-220.gif" class="w-100 mt-4 white-border"></a>
+      </div>
+      <div class="col-6 col-lg-4">
+        <a data-fancybox="gallery" href="./images/ph-800.gif"><img src="./images/ph-800.gif" class="w-100 mt-4 white-border"></a>
+        <a data-fancybox="gallery" href="./images/ph-260.gif"><img src="./images/ph-260.gif" class="w-100 mt-4 white-border"></a>
+        <a data-fancybox="gallery" href="./images/ph-260.gif"><img src="./images/ph-260.gif" class="w-100 mt-4 white-border"></a>
+        <a data-fancybox="gallery" href="./images/ph-220.gif"><img src="./images/ph-220.gif" class="w-100 mt-4 white-border"></a>
+        <a data-fancybox="gallery" href="./images/ph-800.gif"><img src="./images/ph-800.gif" class="w-100 mt-4 white-border"></a>
+      </div>
+      <div class="col-6 col-lg-4">
+        <a data-fancybox="gallery" href="./images/ph-260.gif"><img src="./images/ph-260.gif" class="w-100 mt-4 white-border"></a>
+        <a data-fancybox="gallery" href="./images/ph-800.gif"><img src="./images/ph-800.gif" class="w-100 mt-4 white-border"></a>
+        <a data-fancybox="gallery" href="./images/ph-220.gif"><img src="./images/ph-220.gif" class="w-100 mt-4 white-border"></a>
+        <a data-fancybox="gallery" href="./images/ph-260.gif"><img src="./images/ph-260.gif" class="w-100 mt-4 white-border"></a>
+        <a data-fancybox="gallery" href="./images/ph-800.gif"><img src="./images/ph-800.gif" class="w-100 mt-4 white-border"></a>
       </div>
     </div>
   </div>
